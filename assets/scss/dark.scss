@@ -1,0 +1,193 @@
+body,
+section.section,
+.left-side,
+.socials {
+    background: #0c0c0c;
+}
+
+body,
+#about .experience .experience-item {
+    color: #d9d9e2;
+}
+
+.preloader {
+    background: #020202;
+}
+
+.introduce .cd-headline {
+    color: #aeafb8;
+}
+
+#home.section .introduce .buttons a.download-button {
+    color: #0c0c0c;
+
+    &:before {
+        background: #dce7ed;
+    }
+
+    &:after {
+        border: 1px solid #dce7ed;
+    }
+
+    &:hover {
+        color: #dce7ed;
+    }
+}
+
+#home.section .introduce .buttons a.contact-button {
+    color: #dce7ed;
+    
+    &:before {
+        border: 1px solid #dce7ed;
+    }
+}
+
+.introduce .desc p,
+h3.section-title,
+#about .desc p,
+#about .reward-items .reward-item .desc h4,
+.service-item .service-item-wrap h4,
+.service-item .service-item-wrap i,
+.contact-info i,
+.contact-info .info p {
+    color: #d9d9df;
+}
+
+.introduce .name {
+    text-shadow: 0px 0px 50px rgba(255, 255, 255, 0.1),
+                 1px 0px 55px rgba(255, 255, 255, 0.05),
+                 0px 0px 45px rgba(255, 255, 255, 0.1),
+                 7px 1px 85px rgba(255, 255, 255, 0.1);
+}
+
+.menu-items a:hover {
+    color: #ffffff !important;
+}
+
+.menu-items li.active a {
+    color: #ffffff !important;
+    text-shadow: 0px 0px 35px rgba(255, 255, 255, 0.6),
+                 1px -0px 40px rgba(255, 255, 255, 0.2),
+                -0px 0px 30px rgba(255, 255, 255, 0.6),
+                 7px 1px 70px rgba(255, 255, 255, 0.6);
+}
+
+.socials {
+    a {
+        color: #95979b !important;
+    }
+
+    .twitter:hover {
+        color: #00baff !important;
+        opacity: unset;
+    }
+
+    .dribbble:hover {
+        color: #ff2984 !important;
+        opacity: unset;
+    }
+
+    .instagram:hover {
+        color: #ff2984 !important;
+        opacity: unset;
+    }
+
+    .linkedin:hover {
+        color: #007ab3 !important;
+        opacity: unset;
+    }
+}
+
+.introduce .btn-goto-container .btn-goto-bg {
+    background: #2e2e2e !important;
+}
+
+.introduce .btn-goto-container .btn-goto-bg .goto-circle,
+.toggle-menu .top-line,
+.toggle-menu .bottom-line,
+nav .menu-items li a:before {
+    background: #ffffff !important;
+}
+
+#about .reward-items .reward-item .desc h5,
+#about .info-list li.text-custom .title,
+#about .experience .experience-item .desc,
+#about .experience .experience-item:hover .desc {
+    color: #95979b;
+}
+
+#about .download-cv a.download-button {
+    color: #ffffff;
+    background-size: 100% 100%;
+    background-position: 0 0;
+    background-color: rgb(18, 214, 223) !important; /* Old browsers */
+    background-image: -moz-linear-gradient(-45deg, rgba(18, 214, 223, 1) 0%, rgba(255, 15, 173, 1) 100%); /* FF3.6-15 */
+    background-image: -webkit-linear-gradient(-45deg, rgba(18, 214, 223, 1) 0%, rgba(255, 15, 173, 1) 100%); /* Chrome10-25,Safari5.1-6 */
+    background-image: linear-gradient(135deg, rgba(18, 214, 223, 1) 0%, rgba(255, 15, 173, 1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#12d6df', endColorstr='#ff0fad', GradientType=1); /* IE6-9 fallback on horizontal gradient */
+    box-shadow: 10px 6px 40px 1px rgba(225, 40, 179, 0.45),
+                -10px -6px 40px 1px rgba(50, 187, 216, 0.45);
+    -moz-box-shadow: 10px 6px 40px 1px rgba(225, 40, 179, 0.45),
+                    -10px -6px 40px 1px rgba(50, 187, 216, 0.45);
+    -webkit-box-shadow: 10px 6px 40px 1px rgba(225, 40, 179, 0.45),
+                        -10px -6px 40px 1px rgba(50, 187, 216, 0.45);
+
+    &:hover {
+        color: #ffffff;
+        background-size: 150% 150%;
+        background-position: 100% 0;
+        background-color: rgb(18, 214, 223) !important; /* Old browsers */
+        background-image: -moz-linear-gradient(-45deg, rgba(18, 214, 223, 1) 0%, rgba(255, 15, 173, 1) 100%); /* FF3.6-15 */
+        background-image: -webkit-linear-gradient(-45deg, rgba(18, 214, 223, 1) 0%, rgba(255, 15, 173, 1) 100%); /* Chrome10-25,Safari5.1-6 */
+        background-image: linear-gradient(135deg, rgba(18, 214, 223, 1) 0%, rgba(255, 15, 173, 1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+        filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#12d6df', endColorstr='#ff0fad', GradientType=1); /* IE6-9 fallback on horizontal gradient */
+    }
+}
+
+.service-item-wrap {
+    &:hover {
+        p {
+            color: #a0b0d0 !important;
+        }
+    }
+
+    p {
+        color: #727a8a !important;
+    }
+}
+
+.portfolio-filter li {
+    background: #6b6c6f;
+}
+
+.portfolio-item-wrap {
+    color: #ffffff !important;
+
+    &:before {
+        background: rgba(95, 122, 255, 0.75) !important;
+    }
+}
+
+.featherlight .featherlight-close-icon {
+    color: #ffffff;
+}
+
+.contact-info .info a {
+    color: #a0b0d0;
+}
+
+.contact-form .form-group .form-control {
+    background: #1c1c1c;
+    color: #ffffff;
+
+    &:focus {
+        background: #2b2b2b !important;
+    }
+}
+
+
+@media only screen and (max-width: 1199px) {
+    nav {
+        background: #0c0c0c;
+    }
+}

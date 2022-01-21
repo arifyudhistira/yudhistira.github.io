@@ -1,0 +1,145 @@
+/*
+* -----------------------------------------------------------
+* Template Name    : Viola | Personal, Portfolio Template
+* Author           : RKSDesign
+* Version          : 1.0.0
+* Created          : June 2020
+* File Description : Main css file of the template
+* ------------------------------------------------------------
+*/
+body {
+  font-family: 'Ubuntu', sans-serif;
+  background: #d3dfe8;
+  border-top: 4px solid #66f6ab;
+  color: #2c2d2f; }
+
+.mb-35 {
+  margin-bottom: 35px; }
+
+.preloader {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  background: #fbfbfb;
+  z-index: 8; }
+  .preloader img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); }
+
+.top-section {
+  text-align: center; }
+  .top-section .logo {
+    width: 100%;
+    margin-top: 80px;
+    margin-bottom: 60px;
+    transition: all 0.3s; }
+    .top-section .logo:hover {
+      transform: scale(1.2);
+      opacity: 0.8; }
+    .top-section .logo img {
+      width: 60px; }
+  .top-section h1 {
+    width: 100%;
+    font-size: 20px;
+    font-weight: 300;
+    margin-bottom: 95px; }
+
+.light-icon img {
+  transition: all 0.3s; }
+  .light-icon img:hover {
+    transform: scale(1.2) rotate(360deg);
+    opacity: 0.8; }
+
+.dark-icon img {
+  transition: all 0.3s; }
+  .dark-icon img:hover {
+    transform: scale(1.2) rotate(-90deg);
+    opacity: 0.8; }
+
+.demo-item {
+  padding-right: 38px;
+  padding-left: 38px;
+  margin-bottom: 70px; }
+  .demo-item:last-child {
+    margin-bottom: 220px; }
+  .demo-item:not(.coming-soon) .image:before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(95, 122, 255, 0.75);
+    opacity: 0;
+    z-index: 1;
+    top: 50%;
+    left: 50%;
+    border-radius: 7px;
+    transform: translate(-50%, -50%);
+    transition: all 0.3s; }
+  .demo-item:not(.coming-soon) .image:after {
+    content: "\f06e";
+    font-family: "Font Awesome 5 Free";
+    position: absolute;
+    font-size: 30px;
+    color: #ffffff;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    z-index: 1;
+    transition: all 0.3s; }
+  .demo-item:not(.coming-soon) .image:hover:before, .demo-item:not(.coming-soon) .image:hover:after {
+    opacity: 1; }
+  .demo-item .image {
+    position: relative;
+    display: block; }
+    .demo-item .image img {
+      width: 100%;
+      border-radius: 7px; }
+    .demo-item .image p {
+      position: absolute;
+      margin-bottom: 0;
+      background: #ff001e;
+      padding: 4px 10px;
+      font-size: 20px;
+      white-space: nowrap;
+      color: #ffffff;
+      bottom: 38%;
+      left: 50%;
+      transform: translateX(-50%); }
+  .demo-item .title {
+    padding-top: 40px;
+    text-align: center; }
+    .demo-item .title a {
+      display: inline-block;
+      color: #2c2d2f; }
+      .demo-item .title a:hover {
+        color: #000000; }
+    .demo-item .title h2 {
+      display: inline-block;
+      font-size: 22px;
+      font-weight: 300;
+      text-align: center;
+      transition: all 0.3s; }
+      .demo-item .title h2:hover {
+        letter-spacing: 5px;
+        opacity: 0.5; }
+
+.bottom-section {
+  text-align: center; }
+
+  .bottom-section .copyright {
+    width: 100%;
+    margin-bottom: 115px; }
+
+@media (min-width: 1600px) {
+  .container {
+    max-width: 1300px; } }
+
+@media only screen and (max-width: 1199px) {
+  h1, .copyright {
+    padding-right: 15px;
+    padding-left: 15px; } }
